@@ -138,9 +138,9 @@ export function SideBar(props: { className?: string }) {
         />
         <IconButton
           icon={<GemIcon />}
-          text={shouldNarrow ? undefined : "Pro"}
+          text={shouldNarrow ? undefined : "插件"}
           className={styles["sidebar-bar-button"]}
-          //onClick={() => window.open(REPO_URL + "-Pro", "_blank")}
+          onClick={alert("插件功能暂不可用");}
           shadow
         />
       </div>
